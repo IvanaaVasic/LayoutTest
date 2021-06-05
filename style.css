@@ -209,3 +209,6 @@ body {
   display: inline-block;
   font-size: 120px;
 }
+.zemeckis-mobile {
+  display: none;
+}
