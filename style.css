@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "PTSans";
+  src: url("assets/PTSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSerif";
+  src: url("assets/PTSerif-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0 auto;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.main-picture-header {
+  display: flex;
+  background: url(img/header.jpg) center -60px no-repeat;
+  height: 680px;
+  background-size: cover;
+  opacity: 0.8;
+  position: relative;
+  filter: contrast(110%);
+}
+
+.header-text {
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 27%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.top-part-main-text {
+  font-family: PTSerif;
+  font-size: 80px;
+  margin: 0px;
+  letter-spacing: 4px;
+}
+.down-part-main-text {
+  font-family: PTSans;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0px;
+  letter-spacing: 3px;
+}
