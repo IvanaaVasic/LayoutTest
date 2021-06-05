@@ -65,3 +65,92 @@ body {
   font-size: 24px;
   letter-spacing: 1px;
 }
+
+.grid-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.box-1 {
+  grid-area: num1;
+}
+.box-2 {
+  grid-area: text1;
+}
+.box-3 {
+  grid-area: img1;
+  background: url(img/step-1.jpg) center center no-repeat;
+  background-size: cover;
+}
+.box-4 {
+  grid-area: img2;
+  background: url(img/step-2.jpg) -450px center no-repeat;
+  background-size: cover;
+}
+.box-5 {
+  grid-area: num2;
+}
+.box-6 {
+  grid-area: text2;
+}
+.box-7 {
+  grid-area: num3;
+}
+.box-8 {
+  grid-area: text3;
+}
+.box-9 {
+  grid-area: img3;
+  background: url(img/step-3-4.jpg) -850px center no-repeat;
+  background-size: cover;
+}
+.box-10 {
+  grid-area: text4;
+}
+.box-11 {
+  grid-area: num4;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 40%;
+  grid-template-rows: 490px 600px 600px 380px;
+  grid-template-areas:
+    "num1 text1 img1"
+    "img2 num2 text2"
+    "num3 text3 img3"
+    "text4 num4 img3";
+  grid-gap: 40px;
+}
+
+.num-style {
+  background-color: #86ddf3;
+  color: white;
+  font-family: PTSerif;
+  font-size: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-style {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-header-style {
+  color: black;
+  font-family: PTSerif;
+  margin: 0px;
+  padding-top: 20px;
+}
+.text-body-style {
+  font-size: 28px;
+  line-height: 150%;
+  font-family: PTSans;
+  font-weight: normal;
+  max-width: 400px;
+  align-self: center;
+}
