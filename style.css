@@ -212,3 +212,39 @@ body {
 .zemeckis-mobile {
   display: none;
 }
+
+@media only screen and (max-width: 1130px) and (min-width: 950px) {
+  .main-picture-header {
+    background: url(img/header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+  .text-header-style-2 {
+    font-size: 70px;
+  }
+  .text-header-style {
+    font-size: 28px;
+  }
+  .text-body-style {
+    font-size: 20px;
+    line-height: 130%;
+    max-width: 300px;
+  }
+  .top-part-main-text {
+    font-size: 50px;
+  }
+  .down-part-main-text {
+    font-size: 20px;
+  }
+  .grid-2 {
+    grid-template-rows: 850px;
+  }
+  .zemeckis {
+    top: 90%;
+  }
+  .zemeckis .letter {
+    font-size: 90px;
+  }
+  .zemeckis-mobile {
+    display: none;
+  }
+}
