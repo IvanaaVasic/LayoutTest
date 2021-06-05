@@ -248,3 +248,182 @@ body {
     display: none;
   }
 }
+@media only screen and (max-width: 949px) and (min-width: 690px) {
+  .main-picture-header {
+    background: url(img/header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+  .top-part-main-text {
+    font-size: 28px;
+  }
+  .down-part-main-text {
+    font-size: 10px;
+  }
+  .header-text {
+    top: 35%;
+  }
+  .intro-text {
+    font-size: 18px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 490px 375px 300px 260px 225px 325px 215px 135px 363px;
+    grid-template-areas:
+      "num1 text1"
+      "img1 num2"
+      "text2 num2"
+      "text2 img2"
+      "num3 img2"
+      "num3 text3"
+      "img3 text3"
+      "img3 num4"
+      "text4 num4";
+    grid-gap: 40px;
+  }
+  .box-9 {
+    background: url(img/step-3-4.jpg) center center no-repeat;
+    background-size: cover;
+  }
+  .box-4 {
+    background: url(img/step-2.jpg) -350px center no-repeat;
+    background-size: cover;
+  }
+
+  .text-body-style {
+    font-size: 22px;
+    max-width: 300px;
+    align-self: center;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 660px 660px;
+    grid-template-areas:
+      "text5 "
+      "img4";
+    grid-row-gap: 60px;
+  }
+  .second-grid-container {
+    margin: 0 0 20px 0px;
+    padding: 0px 15px;
+  }
+  .grid-container {
+    margin-bottom: 50px;
+    padding: 0px 15px;
+  }
+  .text-header-style-2 {
+    color: black;
+    font-family: PTSerif;
+    margin: 0px;
+    padding-top: 0px;
+    font-size: 60px;
+  }
+  .text-body-style-2 {
+    line-height: 130%;
+    max-width: 700px;
+  }
+  .zemeckis {
+    display: none;
+  }
+  .zemeckis-mobile {
+    display: block;
+    font-family: PTSans;
+    font-weight: bold;
+    font-size: 0px;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    left: 48%;
+  }
+  .zemeckis-mobile .letter {
+    font-size: 70px;
+  }
+}
+@media only screen and (max-width: 689px) and (min-width: 400px) {
+  .top-part-main-text {
+    font-size: 20px;
+  }
+  .down-part-main-text {
+    font-size: 10px;
+  }
+  .main-picture-header {
+    background: url(img/header.jpg) center center no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+  .intro-text {
+    font-size: 14px;
+  }
+  .text-body-style {
+    font-size: 14px;
+  }
+  .text-header-style {
+    font-size: 22px;
+  }
+  .box-9 {
+    background: url(img/step-3-4.jpg) center center no-repeat;
+    background-size: cover;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 490px 375px 300px 260px 225px 325px 215px 135px 363px;
+    grid-template-areas:
+      "num1  text1"
+      "img1 num2 "
+      "text2 num2"
+      "text2 img2"
+      "num3 img2"
+      "num3 text3"
+      "img3 text3"
+      "img3 num4"
+      "text4 num4";
+    grid-gap: 40px;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 660px 660px;
+    grid-template-areas:
+      "text5 "
+      "img4";
+  }
+  .second-grid-container {
+    margin: 0 0 20px 0px;
+    padding: 0px 15px;
+  }
+  .grid-container {
+    margin-bottom: 50px;
+    padding: 0px 15px;
+  }
+  .text-header-style-2 {
+    color: black;
+    font-family: PTSerif;
+    margin: 0px;
+    padding-top: 0px;
+    font-size: 40px;
+  }
+  .text-body-style-2 {
+    line-height: 130%;
+    max-width: 700px;
+    font-size: 20px;
+  }
+  .zemeckis {
+    display: none;
+  }
+  .zemeckis-mobile {
+    display: block;
+    font-family: PTSans;
+    font-weight: bold;
+    font-size: 0px;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    left: 48%;
+  }
+  .zemeckis-mobile .letter {
+    font-size: 40px;
+  }
+}
