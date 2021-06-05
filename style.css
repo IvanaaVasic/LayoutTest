@@ -154,3 +154,45 @@ body {
   max-width: 400px;
   align-self: center;
 }
+.second-grid-container {
+  max-width: 1350px;
+  margin: 0 0 50px 50px;
+  position: relative;
+}
+
+.box-12 {
+  grid-area: text5;
+}
+.box-13 {
+  grid-area: img4;
+  background: url(img/footer_scale.png) center center no-repeat;
+  background-size: cover;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  grid-template-rows: 1000px;
+  grid-template-areas: "text5 img4";
+  grid-gap: 40px;
+}
+
+.text-style-2 {
+  background-color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.text-header-style-2 {
+  color: black;
+  font-family: PTSerif;
+  margin: 0px;
+  padding-top: 30px;
+  font-size: 90px;
+}
+.text-body-style-2 {
+  font-size: 28px;
+  line-height: 150%;
+  font-family: PTSans;
+  font-weight: normal;
+  max-width: 500px;
+}
