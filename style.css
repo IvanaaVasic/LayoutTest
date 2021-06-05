@@ -427,3 +427,92 @@ body {
     font-size: 40px;
   }
 }
+
+@media only screen and (max-width: 399px) {
+  .main-picture-header {
+    background: url(img/header.jpg) center center no-repeat;
+    background-size: cover;
+    height: 500px;
+  }
+  .top-part-main-text {
+    font-size: 20px;
+  }
+  .down-part-main-text {
+    font-size: 14px;
+  }
+  .intro-text {
+    font-size: 14px;
+  }
+  .grid-container {
+    padding: 0px 10px;
+    margin-bottom: 50px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px 350px 350px 350px 350px 350px 350px 350px 350px 350px 350px;
+    grid-template-areas:
+      "num1 "
+      "text1"
+      "img1"
+      "img2"
+      "num2"
+      "text2 "
+      "num3"
+      "text3"
+      "img3"
+      "text4"
+      "num4";
+    grid-gap: 20px;
+  }
+  .text-body-style {
+    font-size: 18px;
+    max-width: 300px;
+  }
+  .box-4 {
+    background: url(img/step-2.jpg) center center no-repeat;
+    background-size: cover;
+  }
+  .box-9 {
+    background: url(img/step-3-4.jpg) center center no-repeat;
+    background-size: cover;
+  }
+  .second-grid-container {
+    max-width: 1350px;
+    margin: 0 0 50px 0px;
+    position: relative;
+    padding: 0px 10px;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px 500px;
+    grid-template-areas:
+      "text5 "
+      "img4";
+  }
+  .text-header-style-2 {
+    padding-top: 0px;
+    font-size: 50px;
+  }
+  .text-body-style-2 {
+    font-size: 16px;
+  }
+  .zemeckis {
+    display: none;
+  }
+  .zemeckis-mobile {
+    display: block;
+    font-family: PTSans;
+    font-weight: bold;
+    font-size: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 48%;
+  }
+  .zemeckis-mobile .letter {
+    display: inline-block;
+    font-size: 28px;
+  }
+}
